@@ -1,0 +1,18 @@
+== GOAL
+
+ScripIT is a Python skeleton to speed up "post installation" script development
+
+== FUNCTIONS
+
+= showexec(description, command, exitonerror = 0)
+Display and exec a shell function
+
+Output exemple:
+File list                                                             [  OK   ]
+A very very very long description for this little command too lon...  [  OK   ]
+Noexist command but continue                                          [Warning]
+Wait 1 second                                                         [  OK   ]
+Noexist command but quit                                              [ Error ]
+
+= getpassword(description = "")
+Get a password from the CLI
